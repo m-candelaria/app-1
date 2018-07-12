@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  database: sandbox_dev
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  database: sandbox_test
